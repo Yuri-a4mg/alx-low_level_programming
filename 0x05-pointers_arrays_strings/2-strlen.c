@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Alwyas 0.
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length
  */
-int main(void)
+int _strlen(char *s)
 {
-	char *str;
-	int len;
+	int longi = 0;
 
-	str = "My first strlen!";
-	len =_strlen(str);
-	printf("%d\n", len);
-	return (0);
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+
+	return (longi);
 }
