@@ -1,4 +1,4 @@
-#include "main.h"
+_textfile.cinclude "main.h"
 
 #include <stdlib.h>
 
